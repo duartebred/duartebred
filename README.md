@@ -8,7 +8,8 @@
 
 <div>
   <a href="https://github.com/duartebred">
-  <img height="185" src="https://github-readme-stats.vercel.app/api?username=duartebred&show_icons=true&theme=radical"> <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&theme=radical">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=duartebred&show_icons=true&theme=radical"> 
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&theme=radical">
 </div>
 
 <div style="display: inline_block"><br>
