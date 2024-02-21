@@ -1,12 +1,16 @@
 ### Hi there! I'm Duarte 👋
 
 - 🔭 I’m currently working on bioinformatics
-- 🌱 I’m currently learning bioinformatics
+- 🌱 I’m currently learning Python, R, SQL, NoSQL, Machine Learning...
 - 👯 I’m looking to collaborate on bioinformatics area
 - 📫 How to reach me: links in bio
 - ⚡ Fun fact: Jupiter and Saturn have diamond showers 💎🌧️
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
+<div>
+  <a href="https://github.com/duartebred">
+  <img height="185" src="https://github-readme-stats.vercel.app/api?username=duartebred&show_icons=true&theme=radical">
+  <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact">
+</div>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Rafa-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
