@@ -35,4 +35,3 @@
 </div>
 
 ![Snake animation](https://github.com/duartebred/duartebred/blod/output/github-contribution-grid-snake.svg)
-[![readme](https://github-readme-stats.vercel.app/api/pin/?username=duartebred&username=duartebred&theme=react)](https://github.com/duartebred/duartebred)
