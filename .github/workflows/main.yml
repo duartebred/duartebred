@@ -1,0 +1,23 @@
+name: Generate Snake Game
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Generate snake game
+      uses: Platane/snk@v3.2.0
+      id: snake-game
+      with:
+        github_user_name: duartebred
+        outputs: 'dist/github-snake.svg'
+
+    - name: Upload SVG
+      uses: actions/upload-artifact@v2
+      with:
+        name: GitHub Snake
+        path: dist/github-snake.svg
