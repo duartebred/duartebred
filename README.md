@@ -20,7 +20,7 @@
   <img align="center" alt="Duarte-Python" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" />
   <img align="center" alt="Duarte-R" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" />
   <img align="center" alt="Duarte-docker" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" />
-  <img align="right" alt="Duarte-gif" height="190" width="200" src="https://cdn.discordapp.com/attachments/602917110167109642/1213897235578757180/giphy.gif?ex=65f724e6&is=65e4afe6&hm=0383e344a0350204edf876c43c5fa52a9919c19d6d74fc750eb76b0ec55d1739&" />
+  <img align="low" alt="Duarte-gif" height="190" width="200" src="https://cdn.discordapp.com/attachments/602917110167109642/1213897235578757180/giphy.gif?ex=65f724e6&is=65e4afe6&hm=0383e344a0350204edf876c43c5fa52a9919c19d6d74fc750eb76b0ec55d1739&" />
 </div>
   
   ##
@@ -33,5 +33,8 @@
   <a href = "mailto:duartealvesvelho@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
   <a href="https://www.linkedin.com/in/duarte-velho-431296279/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
 </div>
+
+
+
 
 ![Snake animation](https://github.com/duartebred/duartebred/blod/output/github-contribution-grid-snake.svg)
