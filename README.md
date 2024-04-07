@@ -36,3 +36,5 @@
 <div style="display: inline_block"><br>
   <img align="center" alt="Duarte-gif" height="190" width="200" src="https://cdn.discordapp.com/attachments/602917110167109642/1213897235578757180/giphy.gif?ex=65f724e6&is=65e4afe6&hm=0383e344a0350204edf876c43c5fa52a9919c19d6d74fc750eb76b0ec55d1739&" />
 </div>
+
+![](https://github.com/duartebred/duartebred/blob/output/github-contribution-grid-snake.svg)
