@@ -1,7 +1,7 @@
 ### Hi there! I'm Duarte 👋
 
 - 🔭 I’m currently working on bioinformatics
-- 🌱 I’m currently learning Python, R, mySQL, NoSQL, Machine Learning...
+- 🌱 I’m currently learning Python, R, JS, React, mySQL, NoSQL, Machine Learning...
 - 👯 I’m looking to collaborate on bioinformatics area
 - 📫 How to reach me: links in bio
 - ⚡ Fun fact: Jupiter and Saturn have diamond showers 💎🌧️
