@@ -1,6 +1,7 @@
-### Hi there! I'm Duarte 👋
+# Hi there! I'm Duarte 👋
 
-- 🔭 I’m currently working on bioinformatics
+## About me
+- 🔭 I’m currently studying bioinformatics at the University of Minho
 - 🌱 I’m currently learning Python, R, JS, React, mySQL, NoSQL, Machine Learning...
 - 👯 I’m looking to collaborate on bioinformatics area
 - 📫 How to reach me: links in bio
