@@ -33,6 +33,7 @@
 ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 ![Vscode](https://img.shields.io/badge/Vscode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![PyCharm Pro](https://img.shields.io/badge/PyCharm_Pro-000000?style=for-the-badge&logo=pycharm&logoColor=white)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 ![RStudio](https://img.shields.io/badge/RStudio-276DC3?style=for-the-badge&logo=rstudio&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
@@ -58,6 +59,7 @@
   <img align="center" alt="MongoDB" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" />
   <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
   <img align="center" alt="VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
+  <img align="center" alt="PyCharm Pro" height="30" width="40" src="https://resources.jetbrains.com/storage/products/company/brand/logos/PyCharm_icon.svg" />
   <img align="center" alt="NodeJS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
   <img align="center" alt="RStudio" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/d/d0/RStudio_logo_flat.svg" />
   <img align="center" alt="Oracle" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" />
