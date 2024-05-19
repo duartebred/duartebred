@@ -7,11 +7,15 @@
 - 📫 How to reach me: links in bio
 - ⚡ Fun fact: Jupiter and Saturn have diamond showers 💎🌧️
 
-<div>
-  <a href="https://github.com/duartebred">
-  <img align="center" height="164" src="https://github-readme-stats.vercel.app/api?username=duartebred&show_icons=true&theme=radical" /> 
-  <img align="right" height="164" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&theme=radical" />
-</div>
+<h3 align="left">💬📧 My social media:</h3>
+  <div> 
+  <a href="https://www.linkedin.com/in/duarte-velho-431296279/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  <a href = "mailto:duartealvesvelho@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a> 
+  <a href="https://www.instagram.com/duarte_velho1/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+ 	<a href="https://www.twitch.tv/breddd1" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
+  <a href="https://discord.gg/2EpzR3yHqX" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
+  <a href="https://www.youtube.com/@duartevelho502/featured" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+  </div>
 
 <h3 align="left">💻 Programming Languages used:</h3>
 <div style="display: inline_block"><br>
@@ -24,25 +28,18 @@
   <img align="center" alt="Duarte-docker" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" />
   <img align="center" alt="Duarte-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
 </div>
-
-
-<div>
-  <img align="center" height="164" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&theme=radical" />
-</div>
   
   ##
  
-<div> 
-  <a href="https://www.youtube.com/@duartevelho502/featured" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
-  <a href="https://www.instagram.com/duarte_velho1/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
- 	<a href="https://www.twitch.tv/breddd1" target="_blank"><img src="https://img.shields.io/badge/Twitch-9146FF?style=for-the-badge&logo=twitch&logoColor=white" target="_blank"></a>
- <a href="https://discord.gg/2EpzR3yHqX" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" target="_blank"></a> 
-  <a href = "mailto:duartealvesvelho@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
-  <a href="https://www.linkedin.com/in/duarte-velho-431296279/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
-</div>
 
 <div style="display: inline_block"><br>
   <img align="center" alt="Duarte-gif" height="190" width="200" src="https://cdn.discordapp.com/attachments/602917110167109642/1213897235578757180/giphy.gif?ex=65f724e6&is=65e4afe6&hm=0383e344a0350204edf876c43c5fa52a9919c19d6d74fc750eb76b0ec55d1739&" />
+</div>
+
+<div>
+  <a href="https://github.com/duartebred">
+  <img align="center" height="164" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&theme=radical" />
+  <img align="center" height="164" src="https://github-readme-stats.vercel.app/api?username=duartebred&show_icons=true&theme=radical" /> 
 </div>
 
 ![](https://github.com/duartebred/duartebred/blob/output/github-contribution-grid-snake.svg)
