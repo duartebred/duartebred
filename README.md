@@ -59,19 +59,13 @@
   <img align="center" alt="Git" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
   <img align="center" alt="VSCode" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" />
   <img align="center" alt="NodeJS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-  <!-- No official icon in Devicon for RStudio, use a generic image -->
   <img align="center" alt="RStudio" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/d/d0/RStudio_logo_flat.svg" />
-  <!-- No official icon in Devicon for Oracle, use a generic image -->
   <img align="center" alt="Oracle" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg" />
-  <!-- No official icon in Devicon for Neo4j, use a generic image -->
   <img align="center" alt="Neo4j" height="30" width="40" src="https://dist.neo4j.com/wp-content/uploads/neo4j_logo_globe1.png" />
   <img align="center" alt="Bash" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
   <img align="center" alt="Linux" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
-  <!-- No official icon in Devicon for Command Line, use a generic image -->
-  <img align="center" alt="Command Line" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-Vista-Computer.svg" />
-  <!-- No official icon in Devicon for PowerShell, use a generic image -->
+  <img align="center" alt="Command Line" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/terminal/terminal-original.svg" />
   <img align="center" alt="PowerShell" height="30" width="40" src="https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png" />
-  <!-- No specific icon in Devicon for Shell, using Bash as representative -->
   <img align="center" alt="Shell" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" />
 </div>
 
