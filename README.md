@@ -13,6 +13,7 @@
   <img align="right" height="164" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&theme=radical" />
 </div>
 
+<h3 align="left">💻 Programming Languages used:</h3>
 <div style="display: inline_block"><br>
   <img align="center" alt="Duarte-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" />
   <img align="center" alt="Duarte-mySQL" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" />
@@ -22,6 +23,11 @@
   <img align="center" alt="Duarte-R" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rstudio/rstudio-original.svg" />
   <img align="center" alt="Duarte-docker" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain-wordmark.svg" />
   <img align="center" alt="Duarte-React" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+</div>
+
+
+<div>
+  <img align="center" height="164" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&theme=radical" />
 </div>
   
   ##
