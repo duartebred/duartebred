@@ -160,5 +160,5 @@ A first professional role working with data — **data analytics, data science, 
 
 <div align="center">
   <img height="150" src="https://github-readme-stats.vercel.app/api?username=duartebred&show_icons=true&hide_title=true&hide_rank=true&hide=contribs&theme=github_dark&hide_border=true" alt="GitHub stats">
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&langs_count=6&hide=html,tex,css&theme=github_dark&hide_border=true">
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&langs_count=6&hide=html,tex,css&theme=github_dark&hide_border=true" alt="Top languages">
 </div>
