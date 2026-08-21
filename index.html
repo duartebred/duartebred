@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Duarte Velho — Data Science &amp; Analytics</title>
+<meta name="description" content="Duarte Velho — data science, analytics and machine learning. MSc Bioinformatics, University of Minho.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#EDEFEA;
+    --card:#F7F8F5;
+    --ink:#12171A;
+    --ink-soft:#4C5652;
+    --line:#C7CEC4;
+    --green:#3F7D3C;
+    --violet:#5D4FA3;
+    --gutter:44px;
+  }
+
+  *{box-sizing:border-box}
+
+  html{scroll-behavior:smooth}
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"IBM Plex Sans",system-ui,sans-serif;
+    font-size:17px;
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+
+  .wrap{
+    max-width:880px;
+    margin:0 auto;
+    padding:0 24px 96px;
+  }
+
+  /* ---- the pathway spine: the page reads as a metabolic map ---- */
+  .map{
+    position:relative;
+    padding-left:var(--gutter);
+  }
+  .map::before{
+    content:"";
+    position:absolute;
+    left:7px;
+    top:0;
+    bottom:0;
+    width:2px;
+    background:var(--line);
+  }
+
+  .node{
+    position:relative;
+    padding-top:64px;
+  }
+  /* the enzyme box sitting on the spine */
+  .node::before{
+    content:"";
+    position:absolute;
+    left:calc(-1 * var(--gutter) + 1px);
+    top:74px;
+    width:14px;
+    height:14px;
+    background:var(--card);
+    border:2px solid var(--green);
+  }
+  /* the elbow reaching into the content */
+  .node::after{
+    content:"";
+    position:absolute;
+    left:calc(-1 * var(--gutter) + 15px);
+    top:80px;
+    width:22px;
+    height:2px;
+    background:var(--line);
+  }
+
+  /* ---- hero ---- */
+  header{padding:88px 0 8px}
+
+  .eyebrow{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--green);
+    margin:0 0 18px;
+  }
+
+  h1{
+    font-family:"IBM Plex Sans Condensed",sans-serif;
+    font-weight:700;
+    font-size:clamp(3.2rem,11vw,5.6rem);
+    line-height:.94;
+    letter-spacing:-.02em;
+    margin:0 0 20px;
+  }
+
+  .thesis{
+    font-size:clamp(1.05rem,2.4vw,1.3rem);
+    color:var(--ink-soft);
+    max-width:34em;
+    margin:0 0 32px;
+  }
+  .thesis strong{color:var(--ink);font-weight:600}
+
+  .actions{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:12px}
+
+  .btn{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:13px;
+    letter-spacing:.03em;
+    text-decoration:none;
+    color:var(--ink);
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:9px 16px;
+    transition:border-color .18s,color .18s,transform .18s;
+  }
+  .btn:hover{border-color:var(--green);color:var(--green);transform:translateY(-1px)}
+  .btn.primary{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .btn.primary:hover{background:var(--green);border-color:var(--green);color:#fff}
+
+  /* ---- sections ---- */
+  h2{
+    font-family:"IBM Plex Sans Condensed",sans-serif;
+    font-weight:700;
+    font-size:clamp(1.7rem,4vw,2.2rem);
+    letter-spacing:-.01em;
+    margin:0 0 18px;
+  }
+
+  h3{
+    font-family:"IBM Plex Sans Condensed",sans-serif;
+    font-weight:600;
+    font-size:1.28rem;
+    margin:0 0 6px;
+  }
+  h3 a{color:var(--ink);text-decoration:none;border-bottom:2px solid transparent}
+  h3 a:hover{color:var(--violet);border-bottom-color:var(--violet)}
+
+  p{margin:0 0 16px;max-width:40em}
+  .soft{color:var(--ink-soft)}
+
+  a{color:var(--violet)}
+  a:focus-visible,.btn:focus-visible{outline:2px solid var(--violet);outline-offset:3px}
+
+  /* ---- tech chips ---- */
+  .group{margin-bottom:20px}
+  .group-label{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--ink-soft);
+    margin:0 0 9px;
+  }
+  .chips{display:flex;flex-wrap:wrap;gap:7px}
+  .chip{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12.5px;
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:4px 10px;
+  }
+
+  /* ---- projects ---- */
+  .project{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-left:3px solid var(--green);
+    padding:22px 24px;
+    margin-bottom:14px;
+  }
+  .project .tag{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:11px;
+    letter-spacing:.13em;
+    text-transform:uppercase;
+    color:var(--green);
+    display:block;
+    margin-bottom:9px;
+  }
+  .project p{font-size:15.5px;margin-bottom:10px}
+  .stack{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    margin:0;
+  }
+
+  details.more{margin-top:6px}
+  details.more summary{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:13px;
+    cursor:pointer;
+    color:var(--ink-soft);
+    padding:8px 0;
+  }
+  details.more summary:hover{color:var(--green)}
+  details.more ul{padding-left:20px;font-size:15px;color:var(--ink-soft)}
+  details.more li{margin-bottom:8px}
+
+  /* ---- background ---- */
+  .entry{margin-bottom:22px}
+  .entry .when{
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    display:block;
+    margin-bottom:3px;
+  }
+
+  .looking{
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:22px 24px;
+  }
+  .looking p:last-child{margin-bottom:0}
+
+  .stats{margin-top:26px}
+  .stats img{max-width:100%;height:auto}
+
+  footer{
+    padding-top:56px;
+    font-family:"IBM Plex Mono",monospace;
+    font-size:12.5px;
+    color:var(--ink-soft);
+  }
+
+  /* ---- motion, kept to one gesture ---- */
+  @media (prefers-reduced-motion:no-preference){
+    .reveal{opacity:0;transform:translateY(14px);transition:opacity .5s ease,transform .5s ease}
+    .reveal.in{opacity:1;transform:none}
+  }
+
+  @media (max-width:620px){
+    :root{--gutter:28px}
+    body{font-size:16px}
+    .node::before{left:calc(-1 * var(--gutter) + 1px);width:11px;height:11px}
+    .node::after{left:calc(-1 * var(--gutter) + 12px);width:12px}
+    .map::before{left:5px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <p class="eyebrow">Data science · Analytics · Machine learning</p>
+    <h1>Duarte<br>Velho</h1>
+    <p class="thesis">I turn biological and scientific data into <strong>models, pipelines and tools people can actually use</strong>. MSc in Bioinformatics, University of Minho.</p>
+    <div class="actions">
+      <a class="btn primary" href="https://www.linkedin.com/in/duartevelho1">LinkedIn</a>
+      <a class="btn" href="https://github.com/duartebred">GitHub</a>
+      <a class="btn" href="mailto:duartealvesvelho@gmail.com">Email</a>
+    </div>
+  </header>
+
+  <main class="map">
+
+    <section class="node reveal" id="about">
+      <h2>About me</h2>
+      <p>I'm from Ponte de Lima and studied at the University of Minho, where an MSc in Bioinformatics was, in practice, a training in data: programming, machine learning, statistics and databases, applied to problems where the dataset is large, noisy and rarely behaves the way the textbook says.</p>
+      <p>What I enjoy is the full path from raw data to something usable — exploring and cleaning the data, choosing and validating a model, then building the interface or pipeline that puts the result in someone's hands. Most of my work sits at the intersection of data science and software engineering: not just a notebook with an accuracy score, but code that is documented, tested and reproducible.</p>
+      <p>The project that taught me the most was extending KEGGCharter, a published open-source tool used by other researchers. Working inside someone else's codebase, on software people depend on, forces a discipline that writing from scratch never does.</p>
+    </section>
+
+    <section class="node reveal" id="stack">
+      <h2>Tech stack</h2>
+
+      <div class="group">
+        <p class="group-label">Languages</p>
+        <div class="chips">
+          <span class="chip">Python</span><span class="chip">R</span><span class="chip">SQL</span><span class="chip">Bash</span><span class="chip">JavaScript</span>
+        </div>
+      </div>
+
+      <div class="group">
+        <p class="group-label">Data &amp; machine learning</p>
+        <div class="chips">
+          <span class="chip">pandas</span><span class="chip">NumPy</span><span class="chip">scikit-learn</span><span class="chip">TensorFlow</span><span class="chip">PyTorch</span><span class="chip">Matplotlib</span><span class="chip">Bioconductor</span><span class="chip">Biopython</span>
+        </div>
+      </div>
+
+      <div class="group">
+        <p class="group-label">Databases</p>
+        <div class="chips">
+          <span class="chip">MySQL</span><span class="chip">PostgreSQL</span><span class="chip">Oracle</span><span class="chip">MongoDB</span><span class="chip">Neo4j</span>
+        </div>
+      </div>
+
+      <div class="group">
+        <p class="group-label">Tooling</p>
+        <div class="chips">
+          <span class="chip">Docker</span><span class="chip">Git</span><span class="chip">Linux</span><span class="chip">Jupyter</span><span class="chip">LaTeX</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="node reveal" id="projects">
+      <h2>Selected projects</h2>
+
+      <article class="project">
+        <span class="tag">Open source contribution</span>
+        <h3><a href="https://github.com/duartebred/KEGGCharter">KEGGCharter — interactive metabolic map visualisation</a></h3>
+        <p>KEGGCharter maps genomic and transcriptomic data onto KEGG metabolic pathways. Its output was static images: accurate, but impossible to explore — taxonomy and gene expression were drawn as separate layers, so you could not read microbial identity and expression in a single view.</p>
+        <p>I extended the tool with an interactive charting interface, adding multi-level taxonomic representation, on-click access to the underlying numeric values, and cross-references to external databases. Developed as an MSc project with the Centre of Biological Engineering (CEB, University of Minho), under the guidance of the tool's author.</p>
+        <p class="stack">Python · Biopython · data visualisation · <a href="https://github.com/duartebred/Mapping-Omics-datasets-on-KEGG-Metabolic-Pathways">project write-up</a></p>
+      </article>
+
+      <article class="project">
+        <span class="tag">Machine learning</span>
+        <h3><a href="https://github.com/duartebred/ML-data-analysis">Drug response prediction — GDSC1</a></h3>
+        <p>End-to-end analysis of the GDSC1 dataset (IC50 responses for 208 drugs across roughly 1000 cancer cell lines). Exploratory analysis, feature engineering and missing-value treatment, then unsupervised learning and supervised models predicting drug response from a gene-expression profile and a compound's SMILES representation.</p>
+        <p class="stack">Python · scikit-learn · clustering · dimensionality reduction</p>
+      </article>
+
+      <article class="project">
+        <span class="tag">Statistical analysis</span>
+        <h3><a href="https://github.com/duartebred/Analise-RNASeq-Cancro-Utero">RNA-Seq analysis — uterine corpus endometrial carcinoma</a></h3>
+        <p>Gene expression data from the GDC Data Portal: preprocessing, descriptive statistics and visualisation, univariate analysis and differential expression, followed by clustering, dimensionality reduction, predictive modelling with model comparison, and gene selection by importance. Reports generated with R Markdown.</p>
+        <p class="stack">R · Bioconductor · differential expression · machine learning</p>
+      </article>
+
+      <article class="project">
+        <span class="tag">Fundamentals</span>
+        <h3><a href="https://github.com/duartebred/si">Machine learning algorithms from scratch</a></h3>
+        <p>Core machine learning algorithms implemented from first principles using only NumPy and pandas, following a scikit-learn-style API. Built to understand what happens under <code>.fit()</code> rather than to call it.</p>
+        <p class="stack">Python · NumPy · pandas · algorithm implementation</p>
+      </article>
+
+      <article class="project">
+        <span class="tag">Data engineering</span>
+        <h3><a href="https://github.com/duartebred/NOSQL-DATABASES">Relational to NoSQL migration</a></h3>
+        <p>Migration of a hospital management relational database into two non-relational paradigms — document-oriented (MongoDB) and graph-based (Neo4j) — including schema redesign for each paradigm, query implementation, and a critical comparison of performance and modelling trade-offs against the original relational system.</p>
+        <p class="stack">MySQL · MongoDB · Neo4j · data modelling</p>
+      </article>
+
+      <article class="project">
+        <span class="tag">Software engineering</span>
+        <h3><a href="https://github.com/duartebred/Algoritmos-Avancados-Bioinformatica">Advanced algorithms for bioinformatics</a></h3>
+        <p>Original implementations of motif discovery (Gibbs sampling), evolutionary computation, pattern matching (finite automata, tries, suffix trees), Burrows-Wheeler alignment, graphs and biological networks. Written as production-style code: documented, type-hinted and covered by unit tests.</p>
+        <p class="stack">Python · unit testing · type hinting · documentation</p>
+      </article>
+
+      <details class="more">
+        <summary>More repositories</summary>
+        <ul>
+          <li><a href="https://github.com/duartebred/fba-Flux-Balance-Analysis">Flux Balance Analysis</a> — constraint-based metabolic modelling of <em>Chlamydomonas reinhardtii</em> with COBRApy and MEWpy, predicting metabolic flux under different environmental and genetic conditions.</li>
+          <li><a href="https://github.com/duartebred/Regressao-Linear-em-R">Linear regression in R</a> — statistical modelling and diagnostics.</li>
+          <li><a href="https://github.com/duartebred/Laboratorios-de-Bioinformatica-G2-MBI2023-24">Bioinformatics laboratories</a> — systematic gene analysis pipelines with Biopython.</li>
+          <li><a href="https://github.com/duartebred/Web_Scraping-MBI2023-24">Web scraping and MySQL</a> — data collection and database population in Python.</li>
+          <li><a href="https://github.com/duartebred/Bases-de-Dados">Databases</a> and <a href="https://github.com/duartebred/exercises-NoSQLDataBases">NoSQL exercises</a> — SQL and NoSQL practice.</li>
+        </ul>
+      </details>
+    </section>
+
+    <section class="node reveal" id="background">
+      <h2>Background</h2>
+
+      <div class="entry">
+        <span class="when">2023 — 2026</span>
+        <h3>MSc in Bioinformatics · University of Minho, School of Engineering</h3>
+        <p class="soft">Programming, machine learning, statistics, databases and systems biology. Dissertation: metabolic prediction in the gut microbiome using rule-based pipelines (RetroRules), supervised by Prof. Miguel Rocha.</p>
+      </div>
+
+      <div class="entry">
+        <span class="when">2020 — 2023</span>
+        <h3>BSc in Applied Biology · University of Minho, School of Sciences</h3>
+        <p class="soft">Final project at CBMA: microplastic contamination in water bodies using an artificial intelligence approach — data processing and analysis in Python, with statistical analysis in GraphPad Prism and IBM SPSS.</p>
+      </div>
+
+      <p class="soft">Elected course representative for the MSc cohort (2023—2025) and part of the organising committee of the Bioinformatics Open Days for two editions.</p>
+    </section>
+
+    <section class="node reveal" id="looking">
+      <h2>What I'm looking for</h2>
+      <div class="looking">
+        <p>A first professional role working with data — <strong>data analytics, data science, data engineering or machine learning engineering</strong>.</p>
+        <p class="soft">Porto · Braga · Aveiro · Guimarães · Lisboa, or remote within Europe. Available immediately.</p>
+        <div class="actions" style="margin-top:16px;margin-bottom:0">
+          <a class="btn primary" href="mailto:duartealvesvelho@gmail.com">Get in touch</a>
+          <a class="btn" href="https://www.linkedin.com/in/duartevelho1">LinkedIn</a>
+        </div>
+      </div>
+
+      <div class="stats">
+        <img src="https://github-readme-stats.vercel.app/api?username=duartebred&show_icons=true&hide_title=true&hide_rank=true&hide=contribs&theme=graywhite&hide_border=true" alt="">
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&langs_count=6&hide=html,tex,css&theme=graywhite&hide_border=true" alt="">
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>duartebred · Braga, Portugal</p>
+  </footer>
+
+</div>
+
+<script>
+  const items = document.querySelectorAll('.reveal');
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) {
+    items.forEach(el => el.classList.add('in'));
+  } else {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -10% 0px' });
+    items.forEach(el => io.observe(el));
+  }
+</script>
+</body>
+</html>
