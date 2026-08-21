@@ -155,16 +155,3 @@ A first professional role working with data — **data analytics, data science, 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/duartevelho1)
 [![Email](https://img.shields.io/badge/duartealvesvelho@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:duartealvesvelho@gmail.com)
-
----
-
-<div align="center">
-
-<details>
-<summary><b>GitHub Stats</b></summary>
-<br>
-<img height="150" src="https://github-readme-stats.vercel.app/api?username=duartebred&show_icons=true&hide_title=true&hide_rank=true&hide=contribs&theme=github_dark&hide_border=true" alt="GitHub Stats">
-<img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duartebred&layout=compact&langs_count=6&hide=html,tex,css&theme=github_dark&hide_border=true" alt="Top languages">
-</details>
-
-</div>
