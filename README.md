@@ -140,6 +140,8 @@ Final project at CBMA: microplastic contamination in water bodies using an artif
 
 Also: elected course representative for the MSc cohort (2023–2025) and part of the organising committee of the Bioinformatics Open Days for two editions.
 
+📄 [Certificates](https://github.com/duartebred/Certificates) — training, workshops and event participation.
+
 ---
 
 ## What I'm looking for
